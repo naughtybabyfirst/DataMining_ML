@@ -72,6 +72,12 @@ print(data_df.head(10))
 print(data_df.Feature_Name.head(10))
 ```
 
+某特征数据的不同取值的统计量
+
+```
+print(data_df.Feature_Name.value_counts())
+```
+
 #### 3.2.2 重复值
 
 ```
@@ -88,7 +94,7 @@ print(data_df.Feature_Name.value_counts().unique())
 
 
 
-- 年龄（数值）
+* 年龄（数值）
 
 
 
